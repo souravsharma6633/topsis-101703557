@@ -7,4 +7,4 @@ This package will accept three parameters:
 install pandas,sys and math libraries before installing this
 //
 You can install this package using following command
-pip install topsis-101703550
+pip install topsis_101703557
