@@ -5,17 +5,17 @@ Created on Sat Jan 25 22:17:52 2020
 @author: sharma._.g
 """
 
-from distutils.core import setup
+from setuptools import setup
 setup(
   name = 'topsis_101703557',         # How you named your package folder (MyLib)
   packages = ['topsis_101703557'],   # Chose the same as "name"
-  version = '0.7',      # Start with a small number and increase it with every change you make
+  version = '0.8',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Implementation of topsis. User should install pandas, sys, math and operator libraries prior to execution of topsis. Command line example to run is: python topsis_101703557.py data.csv "1,2,3,4" "+,+,-,+". ',   # Give a short description about your library
   author = 'sharma._.g',                   # Type in your name
   author_email = 'souravsharma6633@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/souravsharma6633/topsis_101703557',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/souravsharma6633/topsis_101703557/archive/0.7.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/souravsharma6633/topsis_101703557/archive/0.8.tar.gz',    # I explain this later on
   keywords = ['HAVE', 'A', 'GOOD','DAY'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'pandas',
