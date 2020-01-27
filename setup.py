@@ -13,7 +13,7 @@ def readme():
 
 
 setup(
-    name="topsis-101703550",
+    name="topsis-101703557",
     version="1.1",
     description="A Python package to rank ML models/choices using topsis technique",
     long_description=readme(),
