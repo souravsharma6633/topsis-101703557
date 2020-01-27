@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Jan 27 15:12:08 2020
+
+@author: sharma._.g
+"""
 from setuptools import setup
 
 def readme():
@@ -7,8 +13,8 @@ def readme():
 
 
 setup(
-    name="topsis_101703557",
-    version="1.0",
+    name="topsis-101703550",
+    version="1.1",
     description="A Python package to rank ML models/choices using topsis technique",
     long_description=readme(),
     long_description_content_type="text/markdown",
@@ -23,10 +29,10 @@ setup(
     ],
     packages=["topsis_101703557"],
     include_package_data=True,
-    install_requires=[],
+    install_requires=["pandas"],
     entry_points={
         "console_scripts": [
-            "topsis_101703557=topsis_101703557.__init__:main",
+            "topsis-101703557=topsis_101703557.__init__:main",
         ]
     },
 )
